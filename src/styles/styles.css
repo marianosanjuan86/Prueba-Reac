@@ -3,16 +3,17 @@ button{
     background-color: rgb(43, 160, 255) ;
 }
 
-.dropButton {
-     
-    
-}
 
-.style-navbar{
+.navbar {
     background-color: rgb(43, 160, 255);
+    padding: 0;
 }
 
 .topbar{
     background-color: rgb(255, 185, 246);
     padding: 0;
+}
+.prueba{
+     color: #212529 ;
+     font-size: 1.25rem !important;
 }
