@@ -1,33 +1,19 @@
 import React from 'react';
+import { DropdownButton, Dropdown } from "react-bootstrap";
+//import { GiHamburguerMenu } from "react-icons/gi";
 
 export const NavBar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid">
-            <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul className="navbar-nav">
-                    <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                         Servicios
-                        </a>
-                        <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a className="dropdown-item" href="#">Inflables</a></li>
-                            <li><a className="dropdown-item" href="#">Combos</a></li>
-                            <li><a className="dropdown-item" href="#">Contacto</a></li>
-                        </ul>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Features</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Pricing</a>
-                    </li>
-                </ul>
-            </div>
+        <div className="container-fluid d-flex justify-content-center style-navbar" >       
+            <DropdownButton  className='dropButton' variant="outline" size='lg' title="Servicios" >
+                <Dropdown.Item href="#">Inflables</Dropdown.Item>
+                <Dropdown.Item href="#">Plaza blanda</Dropdown.Item>
+                <Dropdown.Item href="#">Juegos</Dropdown.Item>
+            </DropdownButton>        
+            <button variant="outline" size='lg'> Combos </button>
+            <button variant="outline" size='lg'> Contacto </button>
         </div>
     </nav>
 
