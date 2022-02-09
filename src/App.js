@@ -2,6 +2,8 @@ import React from 'react';
 import { TopBar } from "./components/TopBar";
 import { NavBar } from "./components/NavBar";
 import './styles/styles.css';
+import { Titulo } from './components/Titulo';
+import { ImagesGalery } from './components/ImagesGalery';
 
 
 export const App = () => {
@@ -9,6 +11,8 @@ export const App = () => {
     <>
       < TopBar />
       < NavBar />
+      < Titulo />
+      <ImagesGalery />
 
 
     </>
