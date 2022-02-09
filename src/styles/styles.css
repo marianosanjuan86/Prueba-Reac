@@ -34,11 +34,12 @@ button{
      font-size: 1.25rem !important;
 }
 
-.galery{
-    display: table;
-    margin: auto;
+.cardGalery{
+    margin: 0px;
+    padding: 27px;
 }
 
-.images-galery{
-    margin: 20px 20px 20px 20px;
+.imagesGalery{
+    width: 200px;
+    height: 200px;
 }
