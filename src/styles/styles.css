@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+.titulo h1{
+    font-family: 'Sigmar One', cursive;
+    font-size: 50px;
+    color: rgb(195, 14, 75);
+    text-align: center;
+    margin: 40px 20px 10px 20px;
+}
+
+.titulo h3{
+    font-family: 'Sigmar One', cursive;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(248, 46, 198);
+}
+
 button{
     border: none;
     background-color: rgb(43, 160, 255) ;
 }
-
 
 .navbar {
     background-color: rgb(43, 160, 255);
