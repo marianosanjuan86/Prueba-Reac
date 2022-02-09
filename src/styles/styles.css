@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
 
+/* Componente Titulo */
 .titulo h1{
     font-family: 'Sigmar One', cursive;
     font-size: 50px;
@@ -14,7 +15,7 @@
     font-size: 25px;
     color: rgb(248, 46, 198);
 }
-
+/* Componente NavBar */
 button{
     border: none;
     background-color: rgb(43, 160, 255) ;
@@ -24,7 +25,7 @@ button{
     background-color: rgb(43, 160, 255);
     padding: 0;
 }
-
+/*Componente TopBar*/
 .topbar{
     background-color: rgb(255, 185, 246);
     padding: 0;
@@ -33,7 +34,7 @@ button{
      color: #212529 ;
      font-size: 1.25rem !important;
 }
-
+/*Componente ImagesGalery*/
 .cardGalery{
     margin: 0px;
     padding: 27px;
