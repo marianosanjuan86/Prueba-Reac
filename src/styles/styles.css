@@ -33,3 +33,12 @@ button{
      color: #212529 ;
      font-size: 1.25rem !important;
 }
+
+.galery{
+    display: table;
+    margin: auto;
+}
+
+.images-galery{
+    margin: 20px 20px 20px 20px;
+}

@@ -8,56 +8,57 @@ import galeria5 from "../Images/galeria5.jpg";
 export const ImagesGalery = () => {
   return (
     <>
-        <span>
-            <img
-              alt=""
-              src={ galeria1 }
-              width="100"
-              height="100"
-              className="d-inline-block align-top"
-              />
-        </span>
+        <div className='galery' >  
+            <span className='images-galery'>
+                <img
+                alt=""
+                src={ galeria1 }
+                width="150"
+                height="150"
+                className="d-inline-block align-top"
+                />
+            </span>
 
-        <span>
-            <img
-              alt=""
-              src={ galeria2 }
-              width="100"
-              height="100"
-              className="d-inline-block align-top"
-              />
-        </span>
+            <span className='images-galery'>
+                <img
+                alt=""
+                src={ galeria2 }
+                width="150"
+                height="150"
+                className="d-inline-block align-top"
+                />
+            </span>
 
-        <span>
-            <img
-              alt=""
-              src={ galeria3 }
-              width="100"
-              height="100"
-              className="d-inline-block align-top"
-              />
-        </span>
+            <span className='images-galery'>
+                <img
+                alt=""
+                src={ galeria3 }
+                width="150"
+                height="150"
+                className="d-inline-block align-top"
+                />
+            </span>
 
-        <span>
-            <img
-              alt=""
-              src={ galeria4 }
-              width="100"
-              height="100"
-              className="d-inline-block align-top"
-              />
-        </span>
+            <span className='images-galery'>
+                <img
+                alt=""
+                src={ galeria4 }
+                width="150"
+                height="150"
+                className="d-inline-block align-top"
+                />
+            </span>
 
-        <span>
-            <img
-              alt=""
-              src={ galeria5 }
-              width="100"
-              height="100"
-              className="d-inline-block align-top"
-              />
-        </span>
-
+            <span className='images-galery'>
+                <img
+                alt=""
+                src={ galeria5 }
+                width="150"
+                height="150"
+                className="d-inline-block align-top"
+                />
+            </span>
+        </div>
     </>
   );
 };
