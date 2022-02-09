@@ -4,6 +4,7 @@ import { NavBar } from "./components/NavBar";
 import './styles/styles.css';
 import { Titulo } from './components/Titulo';
 import { ImagesGalery } from './components/ImagesGalery';
+import { QuienesSomos } from './components/QuienesSomos';
 
 
 export const App = () => {
@@ -13,6 +14,8 @@ export const App = () => {
       < NavBar />
       < Titulo />
       <ImagesGalery />
+      <QuienesSomos />
+      
 
 
     </>
