@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
 
+body{ 
+    background:url(../Images/fondoPelones.png) center top no-repeat #040305;
+
+}  
+
+/* .bg{
+    background-image: url(../images/fondoPelones.png);
+
+} */
+
 /* Componente Titulo */
 .titulo h1{
     font-family: 'Sigmar One', cursive;
@@ -43,4 +53,8 @@ button{
 .imagesGalery{
     width: 200px;
     height: 200px;
+}
+
+.quienesSomos{
+    margin-top: 45px;
 }
