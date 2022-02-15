@@ -14,7 +14,7 @@ export const App = () => {
       < TopBar />
       < NavBar />
       < Titulo />
-      <ImagesGalery />
+      {/* <ImagesGalery /> */}
       <QuienesSomos />
       <FloatingWhatsApp 
         phoneNumber={"+5401144485829"} 
